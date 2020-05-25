@@ -1,6 +1,5 @@
 $(function(){
-
-     //webフォント読み込みのブレをなくす為の記述
+    //webフォント読み込みのブレをなくす為の記述
     $('html').addClass('wf-active');
     const window_width = $(window).width();                  //画面の横幅
     const place_max = $('.nav a').length;                    //詳細ページの総数
